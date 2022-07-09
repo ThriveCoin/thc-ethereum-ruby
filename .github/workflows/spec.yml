@@ -46,7 +46,7 @@ jobs:
         git submodule update --init
         bundle install
     - name: Run Tests
-      run: |
-        bundle exec rspec
       env:
         COVERAGE: false
+      run: |
+        bundle exec rspec
