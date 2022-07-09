@@ -9,20 +9,20 @@ require "eth/version"
 Gem::Specification.new do |spec|
   spec.name = "eth"
   spec.version = Eth::VERSION
-  spec.authors = ["Steve Ellis", "Afri Schoedon"]
-  spec.email = ["email@steveell.is", "ruby@q9f.cc"]
+  spec.authors = ["Rilind Mehmeti"]
+  spec.email = ["rilind.h.mehmeti@gmail.com"]
 
   spec.summary = %q{Ruby Ethereum library.}
   spec.description = %q{Library to handle Ethereum accounts, messages, and transactions.}
-  spec.homepage = "https://github.com/q9f/eth.rb"
+  spec.homepage = "https://github.com/rilindmehmeti"
   spec.license = "Apache-2.0"
 
   spec.metadata = {
-    "bug_tracker_uri" => "https://github.com/q9f/eth.rb/issues",
-    "changelog_uri" => "https://github.com/q9f/eth.rb/blob/main/CHANGELOG.md",
-    "documentation_uri" => "https://q9f.github.io/eth.rb/",
-    "github_repo" => "https://github.com/q9f/eth.rb",
-    "source_code_uri" => "https://github.com/q9f/eth.rb",
+    "bug_tracker_uri" => "https://github.com/ThriveCoin/thc-ethereum-ruby/issues",
+    "changelog_uri" => "https://github.com/ThriveCoin/thc-ethereum-ruby",
+    "documentation_uri" => "https://github.com/ThriveCoin/thc-ethereum-ruby",
+    "github_repo" => "https://github.com/ThriveCoin/thc-ethereum-ruby",
+    "source_code_uri" => "https://github.com/ThriveCoin/thc-ethereum-ruby",
   }.freeze
 
   spec.files = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
