@@ -49,4 +49,4 @@ jobs:
       run: |
         bundle exec rspec
       env:
-        COVERAGE: true
+        COVERAGE: false
